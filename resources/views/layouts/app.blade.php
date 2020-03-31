@@ -29,8 +29,7 @@ margin-bottom: 2rem;
 <script type="text/javascript">
 document.documentElement.className =
 document.documentElement.className.replace('no-js', 'js') +
-(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#B
-asicStructure", "1.1") ? ' svg' : ' no-svg');
+(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? ' svg' : ' no-svg');
 </script>
 </head>
 <body>
@@ -73,8 +72,7 @@ margin-bottom: 2rem;
 <script type="text/javascript">
 document.documentElement.className =
 document.documentElement.className.replace('no-js', 'js') +
-(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#B
-asicStructure", "1.1") ? ' svg' : ' no-svg');
+(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? ' svg' : ' no-svg');
 </script>
 </head>
 <body>

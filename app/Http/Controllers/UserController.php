@@ -134,6 +134,11 @@ class UserController extends Controller
         successfully delete');
     }
 
-    
+    public function ajaxSearch2(Request $request)
+    {
+        $keyword = $request->get('q');
+        $users = \App\User::where("name", "LIKE", "%$keyword%")->get();
+        return $users;
+    }
 
 }
